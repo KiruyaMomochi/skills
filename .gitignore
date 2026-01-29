@@ -1,0 +1,21 @@
+# OpenCode artifacts
+.claude/
+
+# Temporary cloned repositories (for testing)
+opentelemetry-collector-contrib/
+opentelemetry.io/
+otel-*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+.direnv

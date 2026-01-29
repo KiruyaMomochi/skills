@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Skill Creator",
+    "type": "git",
+    "url": "https://github.com/anthropics/skills.git",
+    "path": "skills/skill-creator",
+    "sparse_checkout": ["skills/skill-creator"],
+    "move_from": "skills/skill-creator"
+  },
+  {
+    "name": "Doc Co-authoring",
+    "type": "git",
+    "url": "https://github.com/anthropics/skills.git",
+    "path": "skills/doc-coauthoring",
+    "sparse_checkout": ["skills/doc-coauthoring"],
+    "move_from": "skills/doc-coauthoring"
+  },
+  {
+    "name": "sing-box Docs",
+    "type": "git",
+    "url": "https://github.com/SagerNet/sing-box.git",
+    "path": "skills/sing-box/references",
+    "sparse_checkout": ["docs"],
+    "move_from": "docs"
+  },
+  {
+    "name": "OpenTelemetry Collector - General Docs",
+    "type": "git",
+    "url": "https://github.com/open-telemetry/opentelemetry.io",
+    "path": "skills/opentelemetry-collector/references/docs",
+    "sparse_checkout": ["content/en/docs/collector/"],
+    "move_from": "content/en/docs/collector"
+  },
+  {
+    "name": "OpenTelemetry Collector - Components",
+    "type": "git",
+    "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib",
+    "path": "skills/opentelemetry-collector/references/components",
+    "sparse_checkout": ["receiver/", "exporter/", "processor/", "extension/", "connector/"],
+    "files_filter": "(\\.md$|metadata\\.yaml$|/testdata/config.*\\.ya?ml$)"
+  },
+  {
+    "name": "Nix 1-pager",
+    "type": "file",
+    "url": "https://raw.githubusercontent.com/tazjin/nix-1p/master/README.md",
+    "path": "skills/nix/references/nix-1p.md"
+  },
+  {
+    "name": "Nix Language Tutorial",
+    "type": "git",
+    "url": "https://github.com/NixOS/nix.dev",
+    "path": "skills/nix/references/tutorials",
+    "sparse_checkout": ["source/tutorials/nix-language.md"],
+    "move_from": "source/tutorials"
+  },
+  {
+    "name": "Nixpkgs Manual",
+    "type": "git",
+    "url": "https://github.com/NixOS/nixpkgs",
+    "path": "skills/nix/references/manual",
+    "sparse_checkout": ["doc/"],
+    "move_from": "doc",
+    "files_filter": "(\\.md$)"
+  }
+]
